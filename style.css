@@ -64,6 +64,13 @@ p,a{
     letter-spacing: .8px;
 
 }
+h3{
+    font-family: "Gordita Medium";
+    letter-spacing: .8px;
+}
+
+
+
 
 header{
     margin-top: 10px;
@@ -135,6 +142,7 @@ header a:hover{
 align-items: normal;
 position: relative;
 
+
 }
 #about .bottom .widget{
     flex-basis: 300px;
@@ -142,19 +150,16 @@ position: relative;
 }
 #about .bottom .overlay{
     position: absolute;
-    z-index: -1;
-    
-    
+    z-index: -1;    
 }
 
 #about .bottom .widget h3{
-    font-family: "Gordita Medium";
     margin-bottom: 20px;
     padding-inline: 20px;
 }
 #about .bottom .widget p{
     padding-left: 20px;
-    width: 240px;
+    /* width: 240px; */
 }
 
 #about .bottom .widget figure{
@@ -170,4 +175,44 @@ position: relative;
     right: 115px;
     font-family: "Gordita Medium";
     font-size: 12px;
+}
+
+
+
+#main{}
+
+#main .content{
+    justify-content: space-evenly;
+}
+
+#main .content figure {
+    flex-basis: 420px;
+}
+#main .content div{
+    flex-basis: 350px;
+}
+
+#main .content div h3{
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+#main .content div p{
+    margin-bottom: 60px;
+}
+
+#main .content div a{
+    padding: 10px 15px;
+    width: 200px;
+    border-radius: 7px;
+    border:1px solid  #9B9B9B ;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+#main .content div a.button{
+    border:1px solid  hotpink ;
+    color: #000;
+}
+#main .content div a img{
+    height: 50px;
+    width: 50px;
 }
