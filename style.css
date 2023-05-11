@@ -17,7 +17,7 @@ body {
 }
 .wrapper {
 	width: 90%;
-	margin: 15px auto;
+	margin: 0px auto;
 	max-width:1200px;
 
 }
@@ -29,10 +29,10 @@ body {
     src: local('Gordita Medium'), url('Fonts/Gordita/Gordita\ Medium.woff') format('woff');
 }
 @font-face {
-    font-family: 'Gordita=Regular';
+    font-family: 'Gordita Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Gordita Regular'), url('Gordita Regular.woff') format('woff');
+    src: local('Gordita Regular'), url('Fonts/Gordita/Gordita\ Regular.woff') format('woff');
 }
 
 ::placeholder {
@@ -61,10 +61,13 @@ p,a{
     color: #888398;
     font-weight:550;
     line-height: 1.6;
+    letter-spacing: .8px;
 
 }
 
-
+header{
+    margin-top: 10px;
+}
 header figure{
     width: 150px;
 }
@@ -88,6 +91,9 @@ header a:hover{
     transition: .4s;
 }
 
+#spotlight {
+    margin-top: 15px;
+}
 
 #spotlight .left , .right{
     flex-basis: 540px;
@@ -108,3 +114,60 @@ header a:hover{
     display: inline-block;
 }
 
+
+
+#about{
+    margin-block: 60px;
+    overflow: hidden;
+}
+#about .top{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#about .top h2{
+    font-size: 42px;
+    font-family: "Gordita Regular";
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+#about .bottom{
+align-items: normal;
+position: relative;
+
+}
+#about .bottom .widget{
+    flex-basis: 300px;
+
+}
+#about .bottom .overlay{
+    position: absolute;
+    z-index: -1;
+    
+    
+}
+
+#about .bottom .widget h3{
+    font-family: "Gordita Medium";
+    margin-bottom: 20px;
+    padding-inline: 20px;
+}
+#about .bottom .widget p{
+    padding-left: 20px;
+    width: 240px;
+}
+
+#about .bottom .widget figure{
+    height: 300px;
+    margin-block: 10px;
+    background: #fff ;
+
+}
+
+#about .bottom .widget span{
+    position: absolute;
+    top: 120px;
+    right: 115px;
+    font-family: "Gordita Medium";
+    font-size: 12px;
+}
