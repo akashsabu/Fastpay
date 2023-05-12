@@ -57,7 +57,13 @@ img{
     display: block;
     width: 100%;
 }
-p,a{
+a{
+    color: #888398;
+    line-height: 1.6;
+    letter-spacing: .8px;
+
+}
+p{
     color: #888398;
     font-weight:550;
     line-height: 1.6;
@@ -73,7 +79,7 @@ h3{
 
 
 header{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 header figure{
     width: 150px;
@@ -91,11 +97,11 @@ header div a.button{
     background-image: linear-gradient(135deg, #e45f83be 20%,#d76436d5 50%,#9d5bffc4 );
     color: #FFF;
 }
-header a:hover{
-    text-decoration: underline;
-    text-decoration-color: orangered;
+header a:hover  {
+    padding-bottom: 5px;
+    border-bottom: 1px solid hotpink;
     color: #000;
-    transition: .4s;
+    transition: .2s;
 }
 
 #spotlight {
@@ -148,9 +154,12 @@ position: relative;
     flex-basis: 300px;
 
 }
-#about .bottom .overlay{
+#about .bottom .underlay{
     position: absolute;
     z-index: -1;    
+    width: 90%;
+    top: 30px;
+    right: 50px;
 }
 
 #about .bottom .widget h3{
@@ -159,14 +168,11 @@ position: relative;
 }
 #about .bottom .widget p{
     padding-left: 20px;
-    /* width: 240px; */
 }
 
 #about .bottom .widget figure{
     height: 300px;
     margin-block: 10px;
-    background: #fff ;
-
 }
 
 #about .bottom .widget span{
@@ -186,7 +192,7 @@ position: relative;
 }
 
 #main .content figure {
-    flex-basis: 420px;
+    flex-basis: 400px;
 }
 #main .content div{
     flex-basis: 350px;
@@ -257,3 +263,64 @@ position: relative;
 }
 
 
+
+
+footer{
+    margin-block: 50px;
+}
+
+footer .wrapper{
+    background-color: #d7d7d75c;
+    border-radius: 7px;
+    align-items: start;
+}
+footer div{
+    flex-basis: 250px;
+    padding: 30px 40px  ;
+}
+footer div p{
+    font-family: "Gordita Regular";
+}
+footer div figure{
+    text-align: left;
+    display: inline-block;
+}
+footer div div.socialmedia {
+    justify-content: start;
+    padding: 0px;
+    margin-top: 20px;
+    gap: 15px;
+
+}
+
+footer div div.socialmedia a{
+    background-color: rgba(128, 128, 128, 0.222);
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+footer div div.socialmedia a img{
+    height: 20px;
+    width: 20px;
+}
+
+footer div figure{
+margin-bottom: 20px;
+}
+footer div figure img{
+    height: 40px;
+}
+
+footer div h4{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+footer div li{
+    margin-bottom: 8px;
+}
+footer div li a{
+    font-family: "Gordita Regular";
+    font-size: 14px;
+}
