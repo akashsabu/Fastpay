@@ -131,6 +131,7 @@ header a:hover  {
 
 #spotlight .right{
     flex-basis: 45%;
+    /* display: none; */
 }
 #spotlight .left{
     padding-inline: 60px;
@@ -147,7 +148,6 @@ header a:hover  {
     color: #FFF;
     display: inline-block;
 }
-
 
 
 
@@ -489,13 +489,20 @@ footer span{
 
 
 
-
-
-
-
  
 @media all and (max-width:888px){
     h1{
         font-size: 52px;
     }
+} 
+
+ 
+
+
+@media all and (max-width:768px){
+    #spotlight .right{
+        display: none;
+    }
+
+   
 } 
