@@ -83,7 +83,7 @@ h1{
 }
 h2{
     font-size: 42px;
-    font-family: "Gordita Regular";
+    font-family: "Gordita medium";
     letter-spacing: 2px;
 }
 h3{
@@ -196,6 +196,7 @@ header a:hover  {
     margin-block: 40px;
     position: relative;
 }
+
 
 
 #about .bottom .widget span{
@@ -368,14 +369,8 @@ footer span{
     text-align: center;
     padding-block: 30px;
     color: #9B9B9B;
+    letter-spacing: 1.6px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -423,7 +418,7 @@ footer span{
         margin-right: 40px;
     }
     header div a.button{
-        margin-left: 10px;
+        margin-left: 5px;
         padding: 7px 18px;
     }
     #spotlight .right{
@@ -437,12 +432,11 @@ footer span{
         flex-wrap: wrap;
         justify-content: center;
     }
-
-    #about .bottom .widget figure{
-        height: 200px;
-    }
     #about .bottom .widget{
         flex-basis: 230px;
+    }
+    #about .bottom .widget figure{
+        height: 200px;
     }
     #about .bottom .widget span{
         top: 85px;
@@ -482,12 +476,10 @@ footer span{
 
     footer div{
         flex-basis: 150px;
-        padding: 30px 20px  ;
+        padding: 30px 20px;
     }
 
 }
-
-
 
  
 @media all and (max-width:888px){
@@ -496,13 +488,95 @@ footer span{
     }
 } 
 
- 
-
 
 @media all and (max-width:768px){
+    a,p{
+        font-size: 13px;
+        letter-spacing: 1.2px;
+    }
+    h1{
+        font-size: 46px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 26px;
+    }
+    footer div h4{
+        font-size: 16px;
+    }
+
+    header ul li{
+        margin-right: 25px;
+    }
+
+    #spotlight .left{
+        flex-basis: 100%;
+        text-align: center;
+        padding:50px;
+    }
+    #spotlight .left h1{
+        margin-block: 50px;
+    }
     #spotlight .right{
         display: none;
     }
 
-   
+    #about .top{
+        margin-bottom: 0px;
+    }
+    #about .bottom .underlay{
+       display: none;
+    }
+    #about .bottom .widget{
+        flex-basis: 350px;
+        text-align: center;
+    }
+    #about .bottom .widget span{
+        top: 95px;
+        left: 140px;
+    }
+    #about .bottom .widget p{
+        padding: 0;
+    }
+    #about .bottom .widget figure img{
+        height: 100%;
+    }
+
+    #main{
+        margin-block: 75px;
+    }
+    #main .content:first-child{
+        margin-bottom: 50px;
+    }
+    #main .content figure {
+        flex-basis: 35%;
+    }
+    #main .content div{
+        flex-basis: 50%;
+    }
+
+    footer .wrapper{
+        justify-content: space-evenly;
+    }
+    footer div{
+        flex-basis: 200px;
+        padding: 50px 0px;
+        text-align: center;
+    }
+    footer div ul li{
+        margin-bottom: 3px;
+    }
+    footer div div.socialmedia{
+        justify-content: space-evenly;
+    }
+    footer div li a {
+        font-size: 13px;
+    }
+    footer span {
+        font-size: 14px;
+        letter-spacing: 1.2px;
+    }
+
 } 
