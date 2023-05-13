@@ -97,8 +97,6 @@ h4{
     font-size: 18px;
 }
 
-
-
 header{
     margin-top: 15px;
 }
@@ -128,10 +126,8 @@ header a:hover  {
 #spotlight {
     margin-top: 20px;
 }
-
 #spotlight .right{
     flex-basis: 45%;
-    /* display: none; */
 }
 #spotlight .left{
     padding-inline: 60px;
@@ -149,11 +145,6 @@ header a:hover  {
     display: inline-block;
 }
 
-
-
-
-
-
 #about{
     margin-block: 60px;
     overflow: hidden;
@@ -165,7 +156,6 @@ header a:hover  {
 #about .top h2{
     margin-bottom: 30px;
 }
-
 #about .bottom{
     align-items: normal;
     position: relative;
@@ -173,7 +163,6 @@ header a:hover  {
 #about .bottom .widget{
     flex-basis: 300px;
     position: relative;
-
 }
 #about .bottom .underlay{
     position: absolute;
@@ -182,7 +171,6 @@ header a:hover  {
     top: 100px;
     right: 100px;
 }
-
 #about .bottom .widget h4{
     margin-bottom: 20px;
     padding-inline: 20px;
@@ -190,15 +178,11 @@ header a:hover  {
 #about .bottom .widget p{
     padding-left: 20px;
 }
-
 #about .bottom .widget figure{
     height: 250px;
     margin-block: 40px;
     position: relative;
 }
-
-
-
 #about .bottom .widget span{
     position: absolute;
     top: 45%;
@@ -207,26 +191,16 @@ header a:hover  {
     font-size: 12px;
 }
 
-
-
-
-
-
-
-#main{}
-
 #main .content{
     justify-content: space-evenly;
     margin-bottom: 20px;
 }
-
 #main .content figure {
     flex-basis: 35%;
 }
 #main .content div{
     flex-basis: 45%;
 }
-
 #main .content div h3{
     margin-bottom: 50px;
   letter-spacing: 1.6px; 
@@ -234,7 +208,6 @@ header a:hover  {
 #main .content div p{
     margin-bottom: 60px;
 }
-
 #main .content div a{
     padding: 10px 15px;
     width: 200px;
@@ -255,8 +228,6 @@ header a:hover  {
     height: 50px;
     width: 50px;
 }
-
-
 
 #newsletter{
     text-align: center;
@@ -281,7 +252,6 @@ header a:hover  {
 }
 #newsletter form input{
     font-size: 20px;
-
 }
 #newsletter form input[type=email]{
     width: 70%;
@@ -295,9 +265,6 @@ header a:hover  {
     border-radius: 7px;
 }
 
-
-
-
 footer{
     margin-bottom: 20px;
 }
@@ -306,7 +273,6 @@ footer a:hover{
     color: #000;
     transition: .2s;
 }
-
 footer .wrapper{
     background-color: #d7d7d75c;
     border-radius: 7px;
@@ -329,9 +295,7 @@ footer div div.socialmedia {
     padding: 0px;
     margin-top: 20px;
     gap: 15px;
-
 }
-
 footer div div.socialmedia a{
     background-color: rgba(128, 128, 128, 0.222);
     height: 30px;
@@ -344,14 +308,12 @@ footer div div.socialmedia a img{
     height: 20px;
     width: 20px;
 }
-
 footer div figure{
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 footer div figure img{
     height: 40px;
 }
-
 footer div h4{
     font-size: 18px;
     margin-bottom: 30px;
@@ -363,7 +325,6 @@ footer div li a{
     font-family: "Gordita Regular";
     font-size: 14px;
 }
-
 footer span{
     flex-basis: 100%;
     text-align: center;
@@ -372,17 +333,15 @@ footer span{
     letter-spacing: 1.6px;
 }
 
-
-
+/* Media Query */
  @media all and (max-width:1280px){
     h1{
         font-size: 66px;
     } 
-    
-#about .bottom .widget span{
-    top: 110px;
-    left: 100px;
-}
+    #about .bottom .widget span{
+        top: 110px;
+        left: 100px;
+    }
 }
 
 @media all and (max-width:1080px){
@@ -393,10 +352,7 @@ footer span{
         top: 110px;
         left: 100px;
     }
- 
 } 
-
-
 
 @media all and (max-width:980px){
 
@@ -416,7 +372,6 @@ footer span{
     h4{
         letter-spacing: 1px;
     }
-  
     header ul li{
         margin-right: 40px;
     }
@@ -445,12 +400,10 @@ footer span{
         top: 85px;
         left: 75px;
         font-size: 10px;
-    }
-    
-    
+    }    
     #main .content div h3{
         margin-bottom: 30px;
-      letter-spacing: 1.6px; 
+        letter-spacing: 1.6px; 
     }
     #main .content div p{
         margin-bottom: 15px;
@@ -465,32 +418,26 @@ footer span{
         width: 30px;
     }
     #newsletter form{
-        width: 500px;
-        
+        width: 500px;     
     }
     #newsletter form input{
         font-size: 16px;
-    
     }
     #newsletter form input[type = button]{
         width: 25%;
         padding: 10px 15px;
     }
-
     footer div{
         flex-basis: 150px;
         padding: 30px 20px;
     }
-
 }
 
- 
 @media all and (max-width:888px){
     h1{
         font-size: 52px;
     }
 } 
-
 
 @media all and (max-width:768px){
     a,p{
@@ -509,7 +456,6 @@ footer span{
     footer div h4{
         font-size: 16px;
     }
-
     header ul li{
         margin-right: 25px;
     }
@@ -525,7 +471,6 @@ footer span{
     #spotlight .right{
         display: none;
     }
-
     #about .top{
         margin-bottom: 0px;
     }
@@ -546,7 +491,6 @@ footer span{
     #about .bottom .widget figure img{
         height: 100%;
     }
-
     #main{
         margin-block: 75px;
     }
@@ -559,7 +503,6 @@ footer span{
     #main .content div{
         flex-basis: 50%;
     }
-
     footer .wrapper{
         justify-content: space-evenly;
     }
@@ -581,7 +524,6 @@ footer span{
         font-size: 14px;
         letter-spacing: 1.2px;
     }
-
 } 
 
 @media all and (max-width:640px){
@@ -604,7 +546,6 @@ footer span{
         width: 90%;
         margin-inline: auto;
     }
-
     header ul li{
         display: none;
     }
@@ -628,9 +569,6 @@ footer span{
         display: inline-block;
     }
 
-   
-
-
     #main .content div {
         flex-basis: 70% ;
     }
@@ -641,13 +579,10 @@ footer span{
     #main .content div p{
         margin-bottom: 15px;
     }
-   
-
     #main{
         text-align: center;
         
     }
-
     #main .content div a{
         margin-inline: auto;
         justify-content: space-evenly;
@@ -659,23 +594,18 @@ footer span{
     #main .content figure{
         display: none;
     }
-   
-  
-
     #newsletter form{
         width: 90%;  
         padding: 20px;
         border: 0; 
-        box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-
+        box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.075);
     }
 
     #newsletter {
         margin-bottom: 50px;
     }  
     #newsletter form input{
-        box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-
+        box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.075);
     }
 
     #newsletter form input[type=email]{
@@ -683,17 +613,13 @@ footer span{
         padding:10px;
         border:0;
         font-size: 15px;
-
     }
     #newsletter form input[type = button]{
         width: 100%;
         padding: 10px 15px;
         margin-top: 10px;
         font-size: 15px;
-
-
     }
-
 }
 
 @media all and (max-width:480px){
@@ -711,9 +637,10 @@ footer span{
     h3{
         font-size: 20px;
     }
+    header figure{
+        width: 25%;
+    }
    
-  
-  
     #spotlight div.left{
         margin-top: 10px;
         padding: 10px 20px;
@@ -721,7 +648,6 @@ footer span{
     #spotlight div.left h1{
         margin-block: 20px;
     }
-
     #about{
         margin-block: 30px;
     }
@@ -732,7 +658,6 @@ footer span{
         top: 95px;
         left: 125px;
     }
-
     #main .content div {
         flex-basis: 90% ;
     }
